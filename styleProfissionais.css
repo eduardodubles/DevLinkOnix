@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    width: auto;
+    height: 200vh;
+    background: no-repeat top center/cover url(/assets/fundoRipado.PNG);
+}   
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgba(180, 175, 175, 0.84);
+}
+
+h2, p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+ul li a {
+    margin-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+#container {
+    width: 100%;
+    max-width: 588px;
+    margin: 56px auto auto auto;
+    padding: 0 24px;
+}
+
+#manicures, #cabeleireiros, #maquiadores, #massagista {
+    margin-bottom: 2.0rem;
+}
+
+#container p:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.533);
+}
